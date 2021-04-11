@@ -160,7 +160,7 @@ ax1.plot(tlist, probeEz)
 ax1.minorticks_on()
 ax1.grid()
 
-ax2.set_xlim(0, maxTime * df / 8)
+ax2.set_xlim(0, maxTime * df / 20)
 ax2.set_ylim(0, 1.1)
 ax2.set_xlabel('f, Гц')
 ax2.set_ylabel('|S| / |Smax|, б/р')
